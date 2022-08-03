@@ -3,7 +3,7 @@ layout: post
 title:  "22-08-03-axios_send_data_error "
 ---
 
-# Error
+# Axios Send Error
 **axios post 에서 받아오는 파라미터가 다른 변수에 할당해줘도 다시 초기화 되는 문제 발생**
 
 
