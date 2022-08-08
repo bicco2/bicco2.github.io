@@ -10,3 +10,17 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "React"
+        url: "/react"
+      - title: "CSS"
+        url: "/css"
+      - title: "Algorithm"
+        url: "/algorithm"
+      - title: "Occurred Error"
+        url: "/error"
+      - title: "etc"
+        url: "/etc"
