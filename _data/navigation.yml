@@ -12,7 +12,7 @@ main:
   #   url: /sitemap/
 
 sidebar-category:
-  - title: "카테고리"
+  - title: "💻 PROGRAMMING"
     children:
       - title: "React"
         url: "/react"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "22-08-03-axios_send_data_error "
+title: "22-08-03-axios_send_data_error"
 categories:
   - error
 ---
