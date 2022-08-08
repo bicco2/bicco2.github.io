@@ -1,8 +1,8 @@
 ---
-title: "error"
+title: "Error"
 layout: archive
-permalink: /error
+permalink: /Error
 ---
 
-{% assign posts = site.categories.error %}
+{% assign posts = site.categories.Error %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

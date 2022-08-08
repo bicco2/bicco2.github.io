@@ -2,7 +2,7 @@
 layout: post
 title: "useState 실행 순서"
 categories:
-  - react
+  - React
 ---
 
 ```jsx

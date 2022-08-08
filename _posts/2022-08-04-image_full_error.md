@@ -2,7 +2,7 @@
 layout: post
 title: "22-08-04-image_full_error "
 categories:
-  - error
+  - Error
 ---
 
 # image full

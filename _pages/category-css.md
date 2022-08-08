@@ -1,8 +1,8 @@
 ---
 title: "CSS"
 layout: archive
-permalink: /css
+permalink: /CSS
 ---
 
-{% assign posts = site.categories.css %}
+{% assign posts = site.categories.CSS %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

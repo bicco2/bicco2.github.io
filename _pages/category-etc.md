@@ -1,8 +1,8 @@
 ---
 title: "ETC"
 layout: archive
-permalink: /etc
+permalink: /ETC
 ---
 
-{% assign posts = site.categories.etc %}
+{% assign posts = site.categories.ETC %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

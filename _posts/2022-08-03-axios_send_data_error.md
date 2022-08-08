@@ -2,7 +2,7 @@
 layout: post
 title: "22-08-03-axios_send_data_error"
 categories:
-  - error
+  - Error
 ---
 
 # Axios Send Error

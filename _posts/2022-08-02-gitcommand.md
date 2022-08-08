@@ -2,7 +2,7 @@
 layout: post
 title: "22-08-02-git 사용법 "
 categories:
-  - etc
+  - ETC
 ---
 
 # Repository 연결 설정
