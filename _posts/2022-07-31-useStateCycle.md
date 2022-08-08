@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "useState 실행 순서"
+title: "useState 실행 순서"
+categories:
+  - react
 ---
+
 ```jsx
 
 function MyTrashcan() {
@@ -32,12 +35,12 @@ function MyTrashcan() {
   }, []);
 ```
 
-이렇게 했을 때 위에 console.log(trashlist)에서 안뜬다 근데 밑에서 async를 실행한 후에는 정상적으로 콘솔로그 작동 왜 ? 
+이렇게 했을 때 위에 console.log(trashlist)에서 안뜬다 근데 밑에서 async를 실행한 후에는 정상적으로 콘솔로그 작동 왜 ?
 
->>> useState의 흐름을 알아야한다.  그리고 useEffect도
+> > > useState의 흐름을 알아야한다. 그리고 useEffect도
 
-usestate의 set함수는 발생한 즉시 리렌더링을 일으키는데 그래서 그 후에 state의 저장이 되는 방식이여서 
+usestate의 set함수는 발생한 즉시 리렌더링을 일으키는데 그래서 그 후에 state의 저장이 되는 방식이여서
 
 useEffect가 끝나고 나서야 할당됨
 
-그 후 콘솔에 찍힌다. 
+그 후 콘솔에 찍힌다.
