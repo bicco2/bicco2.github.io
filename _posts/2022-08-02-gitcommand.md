@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "22-08-02-git 사용법 "
+title: "git 사용법 "
 categories:
   - ETC
 ---

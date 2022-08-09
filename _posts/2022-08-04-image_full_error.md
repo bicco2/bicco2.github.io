@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "22-08-04-image_full_error "
+title: "image_full_error "
 categories:
   - Error
 ---
