@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CORS 에러"
+title: "Web Server"
 categories:
   - ETC
 ---
