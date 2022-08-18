@@ -9,7 +9,7 @@ categories:
 
 브라우저 렌더링 과정
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dee08bef-2bdf-4fe5-8a70-b6a4f3c3aedf/Untitled.png)
+<img src="https://i.imgur.com/22r3kV0.png" alt="Untitled" border="0" />
 
 크리티컬 렌더링의 시간을 줄이면 웹페이지에 보여지는 시간이 줄어듦
 

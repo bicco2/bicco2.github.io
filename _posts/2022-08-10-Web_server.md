@@ -9,7 +9,7 @@ categories:
 
 - **Web Server(Nginx) : 웹서버 ,얘는 결국 보안을 위한 것임**
 - 만약 쿠버네티스를 사용하게 된다면 nginx는 필요없을 것
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44a3d949-c7fb-4cbf-8a51-205fcdc8277a/Untitled.png)
+  <img src="https://i.imgur.com/ICIUX5y.png" alt="Untitled" border="0" />
 
 ### Web Server(ws) 와 Web Application(was)의 차이
 
@@ -27,7 +27,7 @@ HTTP Web Server로 활용되기도 하고,
 
 </aside>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/331a56eb-f7cf-4203-afa8-29fff35472d1/Untitled.png)
+<img src="https://i.imgur.com/a6yKGB5.png" alt="Untitled" border="0" />
 
 **사용 이유** : WAS 의 부담을 덜어주기 위해 Node.js와 nginx를 같이 사용하면 좋다 .
 
@@ -59,7 +59,7 @@ http : 80 (얘는 결국 443으로 우회된다.)
 
 </aside>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01677637-d3d6-45be-be90-355d4fa450e9/Untitled.png)
+<img src="https://i.imgur.com/6vK9gwd.png" alt="Untitled" border="0" />
 
 <aside>
 ❗ **이벤트 루프** ?
