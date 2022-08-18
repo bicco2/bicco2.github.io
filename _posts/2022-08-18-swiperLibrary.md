@@ -43,7 +43,7 @@ const settings = {
    navigator : 화살표로 이동할 수 있는 ui생성
    pagination : 페이지 나타내는 ui 생성
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d641e13d-9c7e-4b2b-847a-47eb90616869/Untitled.png" alt="Untitled" border="0" />
+<img src="https://www.notion.so/bicco2/swiper-library-c42feb7b876a41bf857172d5880e42c0#ec2776e9982e422eb283580e36d16948" alt="Untitled" border="0" />
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d641e13d-9c7e-4b2b-847a-47eb90616869/Untitled.png)
 
