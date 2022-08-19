@@ -1,52 +1,45 @@
 ---
 layout: post
-title: "Swiper 라이브러리 사용해보기"
+title: "prettier ‘ error"
 categories:
-  - ETC
+  - Error
 ---
 
-# Swiper 라이브러리 사용해보기
+# prettier ‘ error
 
-```tsx
-import { Swiper, SwiperSlide } from "swiper/react"; // basic
-import SwiperCore, { Navigation, Scrollbar, Pagination } from "swiper";
-import "swiper/css"; //basic
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+You can try something like this, it works for me.
 
-SwiperCore.use([Navigation, Pagination, Scrollbar]);
+package.json
 
-const settings = {
-  spaceBetween: 10,
-  navigation: {},
-  pagination: { clickable: true },
-  scrollbar: { draggable: true, el: null },
-  slidesPerView: 1,
-  onSlideChange: (swiper: any) => {
-    setRoomTheme(swiper.activeIndex); //테마 설정
+```
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
   },
-};
 
-<Swiper {...settings} className="flex justify-center m-10">
-  <SwiperSlide className="flex justify-center">
-    <img src="https://i.imgur.com/EP8Qh15.png" alt="charimg" />1
-  </SwiperSlide>
-  <SwiperSlide className="flex justify-center">
-    <img src="https://i.imgur.com/EP8Qh15.png" alt="charimg" />2
-  </SwiperSlide>
-  ...
-</Swiper>;
 ```
 
-1. 사용할 라이브러리들 import로 받아와주고 SwiperCore.use로 사용할 swiper 속성 선언
-2. settings 변수 만들어서 swiper 설정값 따로 관리한다
-   navigator : 화살표로 이동할 수 있는 ui생성
-   pagination : 페이지 나타내는 ui 생성
+.eslintrc
 
-<img src="https://i.imgur.com/V8UUaEN.png" alt="Untitled" border="0" />
+```
+{
+  "extends": "react-app",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
 
-       Scrollbar : 드래그로 요소 값 볼 수 있는 속성
+```
 
-결과물
+.prettierrc
 
-<img src="https://i.imgur.com/2Kz6SW6.png" alt="Untitled" border="0" />
+```
+{
+  "semi": false,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "printWidth": 80,
+  "tabWidth": 3
+}
+```
