@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "javascript의 타입"
+title: "javascript의 함수"
 categories:
   - ETC
 ---
